@@ -1,0 +1,33 @@
+body {
+	font-family: verdana,arial,sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrap { 
+	width:50%; 
+	background:#F0F0F0; 
+	margin:auto;
+	padding: 25px;
+	overflow: hidden;
+}
+
+input.nama {
+	font-size:28px; 
+	width:380px;
+	background-color: #fff;
+	box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.4);
+}
+
+input, textarea {
+    border: 1px solid #CCC;
+}
+
+.form-control autocomplete {
+  width: 1.5em;
+  height: 1.5em;
+  overflow: hidden;
+  margin-top: .5em;
+  margin-right: .5em;
+}
+
