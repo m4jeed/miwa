@@ -21,7 +21,6 @@ class Barang extends CI_Controller {
 			$data['sub_judul']		='Data Produk Miwa';
 			$data['content'] 		='barang/v_barang';
 			$data['barang'] 		= $this->M_barang->data_barang();
-			//print_r($data);die();
 			$this->load->view('template/isi-halaman', $data);
 		}
 

@@ -1,175 +1,256 @@
 <?php $this->load->view('header'); ?>
-    <!-- Sidebar -->
-    <section class="sidebar visible-xs">
-        <ul class="sidebar__nav nav nav-pills nav-stacked">
-            <li role="presentation" class="active"><a href="" data-slide="slide" data-slide-target=".hero">Beranda</a></li>
-            <li role="presentation"><a href="" data-slide="slide" data-slide-target=".feature">Fitur</a></li>
-            <li role="presentation"><a href="" data-slide="slide" data-slide-target=".portfolio"><span class="circle"></span> Tujuan</a></li>
-            <li role="presentation"><a href="" data-slide="slide" data-slide-target=".travels">Gambar</a></li>
-            <li role="presentation"><a href="" data-slide="slide" data-slide-target=".maps">Maps</a></li>
-        </ul>
+     <!-- ****** Welcome Area Start ****** -->
+    <section class="caviar-hero-area" id="beranda">
+        <div class="caviar-hero-slides owl-carousel">
+            <!-- Single Slides -->
+            <div class="single-hero-slides bg-img" style="background-image: url(depan/img/bg-img/hero-1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-11 col-md-6 col-lg-4">
+                            <div class="hero-content">
+                                <h2>Miwa Snack</h2>
+                                <p>Makanan ataupun cemilan untuk semua kalangan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider Nav -->
+                <div class="hero-slides-nav bg-img" style="background-image: url(depan/img/bg-img/hero-2.jpg);"></div>
+            </div>
+            <!-- Single Slides -->
+            <div class="single-hero-slides bg-img" style="background-image: url(depan/img/bg-img/hero-2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-11 col-md-6 col-lg-4">
+                            <div class="hero-content">
+                                <h2>Miwa Snack</h2>
+                                <p>Makanan ataupun cemilan untuk semua kalangan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider Nav -->
+                <div class="hero-slides-nav bg-img" style="background-image: url(img/bg-img/hero-1.jpg);"></div>
+            </div>
+        </div>
     </section>
-    
-    <!-- Sidebar Overlay -->
-    <section class="sidebar-overlay"></section>
-    
-    <!-- Hero -->
-    <section class="hero">
+    <!-- ****** Welcome Area End ****** -->
+
+    <!-- ****** About Us Area Start ****** -->
+    <section class="caviar-about-us-area section-padding-150" id="kami">
+        <div class="container">
+            <!-- About Us Single Area -->
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="<?php echo base_url(); ?>depan/img/bg-img/about-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 ml-md-auto">
+                    <div class="section-heading">
+                        <h2>Tentang Kami</h2>
+                    </div>
+                    <div class="about-us-content">
+                        <span>Makanan Ringan</span>
+                        <p>Makanan ringan miwa rengginang adalah kas makanan indonesia yag di produksi oleh tangan-tangan kreatifitas</p>
+                    </div>
+                </div>
+            </div>
+            <!-- About Us Single Area -->
+            <div class="about-us-second-part">
+                <div class="row align-items-center pt-200">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="about-us-content">
+                            <span>Ceo Produk</span>
+                            <p>Produk yang kami bangun berdasarkan rasa dan idola para penggemar</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ml-md-auto">
+                        <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
+                            <img src="<?php echo base_url(); ?>depan/img/bg-img/aum.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ****** About Us Area End ****** -->
+
+    <!-- ****** Dish Menu Area Start ****** -->
+    <section class="caviar-dish-menu" id="produk">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="<?php echo base_url(); ?>depan/img/create-trip.png" alt="Vacation Background" class="img-responsive" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-12 menu-heading">
+                    <div class="section-heading text-center">
+                        <h2>Produk Varian Miwa</h2>
+                    </div>
+                    <!-- btn -->
+                    <!-- <a href="" class="btn caviar-btn"><span></span> View The Menu</a> -->
                 </div>
-                <div class="col-md-6">
-                    <div class="title huge" data-aos="fade-down" data-aos-delay="200">Cemilan rasa nano nano</div>
-                    <div class="description" data-aos="fade-up" data-aos-delay="300">Kami adalah perusahaan yang bergerak di bidang makanan ringan
-                    yang terjun langsung dengan pengerjaan secara profesional</div>
-                    <a href="" data-aos="fade-down" data-aos-delay="400" class="btn btn-info btn-border">Download Brosur</a>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="<?php echo base_url(); ?>depan/img/menu-img/pedes.jpeg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Miwa Rasa Pedes</h6>
+                            <p class="dish-price">$2</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="<?php echo base_url(); ?>depan/img/menu-img/keju.jpeg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Miwa Rasa Keju</h6>
+                            <p class="dish-price">$2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="<?php echo base_url(); ?>depan/img/menu-img/teri.jpeg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Miwa Rasa Teri</h6>
+                            <p class="dish-price">$2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="<?php echo base_url(); ?>depan/img/menu-img/terasi.jpeg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Miwa Rasa Terasi</h6>
+                            <p class="dish-price">$2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
+                        <img src="<?php echo base_url(); ?>depan/img/menu-img/jagung.jpeg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Miwa Rasa Jagung Bakar</h6>
+                            <p class="dish-price">$2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
+                        <img src="<?php echo base_url(); ?>depan/img/menu-img/rumput_laut.jpeg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Miwa Rasa Rumput Laut</h6>
+                            <p class="dish-price">$2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
+                        <img src="<?php echo base_url(); ?>depan/img/menu-img/telor_asin.jpeg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Miwa Rasa Telor Asin</h6>
+                            <p class="dish-price">$2</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
-    
-    <!-- Feature -->
-    <section class="feature">
-        <div class="title medium">Fitur</div>
+    <!-- ****** Dish Menu Area End ****** -->
+
+    <!-- ****** Awards Area Start ****** -->
+    <section class="caviar-awards-area" id="penghargaan">
         <div class="container">
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="feature-box" data-aos="fade-up" data-aos-delay="300">
-                    <div class="feature-icon">
-                        <img src="<?php echo base_url(); ?>depan/img/free.png" alt="Free Icon">
-                    </div>
-                    <div class="feature-title">Totaly Free</div>
-                    <div class="feature-description">
-                        This template is free for everyone, just download from repository if you want to use.
+            <div class="row align-items-center">
+                <div class="col-12 col-md-2">
+                    <div class="section-heading">
+                        <h2>Penghargaan</h2>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="feature-box" data-aos="fade-up" data-aos-delay="600">
-                    <div class="feature-icon">
-                        <img src="<?php echo base_url(); ?>depan/img/cools.png" alt="Customize Icon">
-                    </div>
-                    <div class="feature-title">Cools UI</div>
-                    <div class="feature-description">
-                        Build with Bootstrap 3 and jQuery combine with SASS and BEM CSS.
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="feature-box" data-aos="fade-up" data-aos-delay="900">
-                    <div class="feature-icon">
-                        <img src="<?php echo base_url(); ?>depan/img/creative.png" alt="Code Icon">
-                    </div>
-                    <div class="feature-title">Customizable</div>
-                    <div class="feature-description">
-                        Customize with your imagination just change SASS file and build it with gulp & gulp-sass.
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="feature-box" data-aos="fade-up" data-aos-delay="900">
-                    <div class="feature-icon">
-                        <img src="<?php echo base_url(); ?>depan/img/help.png" alt="Code Icon">
-                    </div>
-                    <div class="feature-title">Free to Ask</div>
-                    <div class="feature-description">
-                        You have question or found some bugs? Don't worry just submit your <a href="https://github.com/muhibbudins/vacations/issues">Issue.</a>
+                <div class="col-12 col-md-9 ml-md-auto">
+                    <div class="caviar-awards d-sm-flex justify-content-between">
+                        <img src="<?php echo base_url(); ?>depan/img/awards-img/a-1.png" alt="">
+                        <img src="<?php echo base_url(); ?>depan/img/awards-img/a-2.png" alt="">
+                        <img src="<?php echo base_url(); ?>depan/img/awards-img/a-3.png" alt="">
+                        <img src="<?php echo base_url(); ?>depan/img/awards-img/a-4.png" alt="">
+                        <img src="<?php echo base_url(); ?>depan/img/awards-img/a-5.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <!-- Popular -->
-    <section class="portfolio">
-        <div class="title medium">Tujuan</div>
-        <div class="popular__portofolio">
-            <div class="portfolio__item">
-                <div class="portofolio__item_overlay overlay_effect">
-                    <div class="overlay__inner">
-                        <div class="item__title">Tujuan Miwa Rengginang</div>
-                        <div class="item__description">Tujuan kami adalah membantu masyrakat agar efisien menghemat waktu dalam bekerja ditengah kesibukan sehari sambil makan cemilan</div>
-                        <a href="#" class="btn btn-default btn-border">Read More</a>
-                    </div>
-                </div>
-                <img src="<?php echo base_url(); ?>depan/img/borobudur-400x400.jpg" alt="Borobudur">
-            </div>
-            <div class="portfolio__item">
-                <div class="portofolio__item_overlay overlay_effect">
-                    <div class="overlay__inner">
-                        <div class="item__title">Some Title Here</div>
-                        <div class="item__description">Reprehenderit ducimus consequuntur facilis nemo corporis dolor possimus quia tempore, aut ipsum id, perferendis totam voluptates repellendus non amet ipsam quos itaque.</div>
-                        <a href="#" class="btn btn-default btn-border">Read More</a>
-                    </div>
-                </div>
-                <img src="<?php echo base_url(); ?>depan/img/candiPrambanan-400x400.jpg" alt="CandiPrambanan">
-            </div>
-            <div class="portfolio__item">
-                <div class="portofolio__item_overlay overlay_effect">
-                    <div class="overlay__inner">
-                        <div class="item__title">Some Title Here</div>
-                        <div class="item__description">Reprehenderit ducimus consequuntur facilis nemo corporis dolor possimus quia tempore, aut ipsum id, perferendis totam voluptates repellendus non amet ipsam quos itaque.</div>
-                        <a href="#" class="btn btn-default btn-border">Read More</a>
-                    </div>
-                </div>
-                <img src="<?php echo base_url(); ?>depan/img/danauKelimutu-400x400.jpg" alt="DanauKelimutu">
-            </div>
-            <div class="portfolio__item">
-                <div class="portofolio__item_overlay overlay_effect">
-                    <div class="overlay__inner">
-                        <div class="item__title">Some Title Here</div>
-                        <div class="item__description">Reprehenderit ducimus consequuntur facilis nemo corporis dolor possimus quia tempore, aut ipsum id, perferendis totam voluptates repellendus non amet ipsam quos itaque.</div>
-                        <a href="#" class="btn btn-default btn-border">Read More</a>
-                    </div>
-                </div>
-                <img src="<?php echo base_url(); ?>depan/img/toraja-400x400.jpg" alt="Toraja">
-            </div>
-        </div>
-    </section>
-    
-    <!-- Travels -->
-    <section class="travels">
-        <div class="title medium">Gambar</div>
+    <!-- ****** Awards Area End ****** -->
+
+    <!-- ****** Testimonials Area Start ****** -->
+    <section class="caviar-testimonials-area" id="testimonial">
         <div class="container">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="swiper-container" id="swiper-travel">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonials-content">
+                        <div class="section-heading text-center">
+                            <h2>Testimonials</h2>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>depan/img/120x120.png" alt="Dummy Travels" class="img-circle">
+                        <div class="caviar-testimonials-slides owl-carousel">
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-thumb-name d-flex align-items-center">
+                                    <img src="<?php echo base_url(); ?>depan/img/testimonial-img/3.jpg" alt="">
+                                    <div class="tes-name">
+                                        <h5>Maz Majeed</h5>
+                                        <p>Web Developer</p>
+                                    </div>
+                                </div>
+                                <p>Dari berbagai varian makanan ringan cuma Miwa Snack yang bisa bikin ketagihan, enak buat saat santai dan rasanya yang varian.</p>
+                            </div>
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-thumb-name d-flex align-items-center">
+                                    <img src="<?php echo base_url(); ?>depan/img/testimonial-img/2.jpg" alt="">
+                                    <div class="tes-name">
+                                        <h5>Nikita Willy</h5>
+                                        <p>Artis</p>
+                                    </div>
+                                </div>
+                                <p>Dari berbagai varian makanan ringan cuma Miwa Snack yang bisa bikin ketagihan, enak buat saat santai dan rasanya yang varian.</p>
+                            </div>
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-thumb-name d-flex align-items-center">
+                                    <img src="<?php echo base_url(); ?>depan/img/testimonial-img/1.jpg" alt="">
+                                    <div class="tes-name">
+                                        <h5>Ariel Tatum</h5>
+                                        <p>Artis</p>
+                                    </div>
+                                </div>
+                                <p>Dari berbagai varian makanan ringan cuma Miwa Snack yang bisa bikin ketagihan, enak buat saat santai dan rasanya yang varian.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
     </section>
     
-   
-    <!-- Maps -->
-    <section class="maps">
-        <div class="title medium">Alamat Kami</div>
+    <!-- ****** Reservation Area End ****** -->
+    <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(depan/img/bg-img/hero-4.jpg)" id="kontak">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h3 style="color:white">Kontak Kami</h3>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> +62 821-2734-0448</p>
+                        <p><i class="fa fa-instagram" aria-hidden="true"></i><a href="instagram.com"> miwasnack</a></p>
+                        <p><i class="fa fa-facebook" aria-hidden="true"></i> <a href="facebook.com">facebook.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="maps" id="alamat">
+        <div class="section-heading text-center">
+            <h2>Alamat Kami</h2>
+        </div>
         <div class="maps__inner">
             <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ377GZZwHby4RLTjVf3xbb8E&key=AIzaSyAVtVZDz7WIFPBbg5B--zY-VM0_X0uWgZI" width="100%" height="400" frameborder="0" style="border: 0;"></iframe>
         </div>
@@ -177,13 +258,11 @@
 
     <?php $this->load->view('footer'); ?>
     <!-- Import Vendor Script -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/jquery.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/swiper.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/aos.js"></script>
-
-    <!-- Import Custom Script -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/script.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/jquery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/bootstrap/popper.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/others/plugins.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>depan/js/active.js"></script>
 </body>
 
 </html>

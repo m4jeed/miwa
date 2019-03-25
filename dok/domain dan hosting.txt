@@ -1,0 +1,13 @@
+HOSTING webmaster
+email :almajidibnujazu4@gmail.com
+pass :mazmajeed123456789
+
+
+DOMAIN domainasia
+email :almajidibnujazu4@gmail.com
+pass :mazmajeed123
+
+FTP/filezila
+host: 45.64.1.203
+user: k4742092
+pass: 6J7#m5LvsMq1+N

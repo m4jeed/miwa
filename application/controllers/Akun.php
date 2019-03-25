@@ -55,4 +55,11 @@ class Akun extends CI_Controller {
 	    $this->M_akun->update($id, $data);
 	    echo json_encode(array("status"=>TRUE)); 
 	}
+
+	public function delete($id){
+			$where = array('uid'=>$id);	
+			$data['tbl_login'] 	= $this->M_akun->delete_akun($where, 'tbl_login');
+			redirect ('Akun');
+			$this->load->view('template/isi-halaman', $data);
+	}
 }

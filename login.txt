@@ -1,4 +1,0 @@
-
-akses halaman login:http://localhost/miwa/login
-username :admin
-password :admin

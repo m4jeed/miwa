@@ -30,5 +30,10 @@ class M_akun extends CI_Model {
       $this->db->update('tbl_login',$data);
     }
 
+    public function delete_akun($where, $table){
+      $this->db->where($where);
+      $this->db->delete($table);
+    }
+
 
 }

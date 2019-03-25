@@ -29,7 +29,7 @@
         <td><?php echo $a->level ?></td>
         <td>
         	<a href="" title="Edit" onclick="edit_id('<?php echo $a->uid; ?>')" class="btn btn-success" data-toggle="modal" data-target="#diclick"><i class="fa fa-pencil"></i></a>
-  				<a class="btn btn-warning" href="<?php echo base_url(); ?>akun/hapus/<?php echo $a->uid;?>" onclick="return confirm('Anda yakin akan menghapus data ini.');"><i class="fa fa-trash"></i></a>
+  				<a class="btn btn-warning" href="<?php echo base_url(); ?>akun/delete/<?php echo $a->uid;?>" onclick="return confirm('Anda yakin akan menghapus data ini.');"><i class="fa fa-trash"></i></a>
   		  </td>
 
       </tr>

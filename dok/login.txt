@@ -1,0 +1,13 @@
+
+akses halaman login:http://localhost/miwa/login
+username :admin
+password :admin
+
+akses halaman login:http://miwasnack.site/Akun
+buat IT
+username :admin
+password :admin
+
+buat superuser
+username :superuser
+password :admin123
